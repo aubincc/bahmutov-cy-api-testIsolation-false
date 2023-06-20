@@ -16,5 +16,8 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 
-// Alternatively you can use CommonJS syntax:
-// require('./commands')
+
+// https://github.com/bahmutov/cy-api/issues/210#issuecomment-1597288221
+// uncomment one at a time
+import "@bahmutov/cy-api"
+// import "cypress-plugin-api"
